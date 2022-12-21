@@ -8,7 +8,6 @@ const app = express();
 const port = 5000;
 
 
-console.log(process.env.THE_KEY_TO_HAPPINESS)
 // Body-parser middleware
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
